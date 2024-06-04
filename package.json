@@ -1,0 +1,22 @@
+{
+  "name": "latihan-dasar",
+  "module": "index.ts",
+  "type": "module",
+  "workspaces": [
+    "package/*"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^4.17.21",
+    "prisma": "^5.14.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "5.14.0",
+    "express": "^4.19.2",
+    "winston": "^3.13.0",
+    "zod": "^3.23.8"
+  }
+}
